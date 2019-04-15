@@ -5,7 +5,7 @@ actual object LangSpecificFileUtils {
         fileNamePrefix: String,
         fileNameSuffix: String
     ): File? {
-        JavaFiles.wri
+        return File(JavaFile.createTempFile(fileNamePrefix, fileNameSuffix))
     }
 
     actual fun writeToFile(message: List<String>, tempFile: File?) {
