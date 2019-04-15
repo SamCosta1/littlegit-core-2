@@ -11,7 +11,7 @@ expect open class BaseIntegrationTest() {
     val testFolder: TempFolder
     val littleGit: LittleGitCore
 
-    fun setup()
+    open fun setup()
 
 
     fun fileInTestFolder(name: String): File

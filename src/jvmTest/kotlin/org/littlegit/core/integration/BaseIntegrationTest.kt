@@ -23,7 +23,7 @@ actual open class BaseIntegrationTest {
         get() = _littleGit!!
 
     @Before
-    actual fun setup() {
+    actual open fun setup() {
         _littleGit = LittleGitCore.Builder()
             .setRepoDirectoryPath(Path(_testFolder.root.toPath()))
             .build()

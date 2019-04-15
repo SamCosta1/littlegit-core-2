@@ -13,4 +13,8 @@ actual class CPDate(private val dateTime: OffsetDateTime): Comparable<CPDate> {
             CPDate(OffsetDateTime.ofInstant(Instant.ofEpochMilli(milis), ZoneId.systemDefault()))
 
     }
+
+    override fun equals(other: Any?): Boolean {
+        return other is CPDate && this.dateTime == other.dateTime
+    }
 }

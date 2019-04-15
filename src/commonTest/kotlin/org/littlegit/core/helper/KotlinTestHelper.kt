@@ -15,6 +15,10 @@ fun  <T> assertEquals(expected: T, actual: T) {
     return kotlin.test.assertEquals(expected, actual)
 }
 
+fun  <T> assertEquals(msg: String, expected: T, actual: T) {
+    return kotlin.test.assertEquals(expected, actual, msg)
+}
+
 expect class TempFolder {
     val absolutePath: String
     val canonicalPath: String
