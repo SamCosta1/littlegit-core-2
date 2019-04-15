@@ -7,8 +7,16 @@ fun assertTrue(msg: String = "", condition: Boolean) {
     kotlin.test.assertTrue(condition, msg)
 }
 
+fun assertTrue(condition: Boolean) {
+    kotlin.test.assertTrue(condition)
+}
+
 fun assertFalse(msg: String = "", condition: Boolean) {
     kotlin.test.assertFalse(condition, msg)
+}
+
+fun assertFalse(condition: Boolean) {
+    kotlin.test.assertFalse(condition)
 }
 
 fun  <T> assertEquals(expected: T, actual: T) {

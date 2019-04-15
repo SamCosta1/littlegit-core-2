@@ -18,6 +18,10 @@ actual class Path(private val _path: JavaPath) {
         return _path.toString()
     }
 
+    override fun equals(other: Any?): Boolean {
+        return other is Path && _path == other._path;
+    }
+
 }
 
 typealias JavaFile = java.io.File;
