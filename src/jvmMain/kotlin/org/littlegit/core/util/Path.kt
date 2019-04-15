@@ -11,6 +11,13 @@ actual class Path(private val _path: JavaPath) {
 
     fun javaPath(): JavaPath = _path
 
+    actual val fileName: Path
+        get() = Path(_path.fileName)
+
+    override fun toString(): String {
+        return _path.toString()
+    }
+
 }
 
 typealias JavaFile = java.io.File;
@@ -28,6 +35,10 @@ actual class File(private val _file: JavaFile) {
 
     actual fun delete() {
         _file.delete();
+    }
+
+    actual fun newFile(s: String) {
+        _file.createNewFile()
     }
 }
 

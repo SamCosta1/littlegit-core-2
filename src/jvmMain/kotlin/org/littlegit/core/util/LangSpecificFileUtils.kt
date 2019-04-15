@@ -5,7 +5,7 @@ actual object LangSpecificFileUtils {
         fileNamePrefix: String,
         fileNameSuffix: String
     ): File? {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        JavaFiles.wri
     }
 
     actual fun writeToFile(message: List<String>, tempFile: File?) {

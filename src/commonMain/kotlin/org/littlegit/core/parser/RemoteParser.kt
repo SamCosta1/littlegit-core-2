@@ -22,7 +22,8 @@ object RemoteParser {
                 val url = fields[1]
                 val isPush = fields[2].trim() == "(push)"
 
-                val remote = remotes.getOrDefault(name, Remote(name))
+
+                val remote = if (remotes.containsKey(name)) remotes[name]!! else Remote(name)
 
                 if (isPush) {
                     remote.pushUrl = url

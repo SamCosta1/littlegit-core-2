@@ -1,14 +1,13 @@
 package org.littlegit.core.integration
 
-
-import kotlin.test.Test
-
 import org.littlegit.core.commandrunner.GitResult
 import org.littlegit.core.helper.TestCommandHelper
 import org.littlegit.core.helper.assertFalse
 import org.littlegit.core.helper.assertTrue
 import org.littlegit.core.util.Files
 import org.littlegit.core.util.Paths
+import kotlin.test.Test
+
 
 class InitializeTests: BaseIntegrationTest() {
 

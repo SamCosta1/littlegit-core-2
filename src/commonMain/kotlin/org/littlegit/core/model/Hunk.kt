@@ -1,6 +1,5 @@
 package org.littlegit.core.model
 
-import org.jetbrains.annotations.TestOnly
 import org.littlegit.core.util.Path
 
 typealias Patch = List<String>

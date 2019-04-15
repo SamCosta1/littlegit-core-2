@@ -1,13 +1,14 @@
 package org.littlegit.core.integration
 
 import org.littlegit.core.LittleGitCore
+import org.littlegit.core.helper.TempFolder
 import org.littlegit.core.util.File
 import kotlin.test.BeforeTest
 
 
-expect open class BaseIntegrationTest {
+expect open class BaseIntegrationTest() {
 
-    val testFolder: File
+    val testFolder: TempFolder
     val littleGit: LittleGitCore
 
     fun setup()

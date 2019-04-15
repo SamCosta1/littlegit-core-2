@@ -3,9 +3,7 @@ package org.littlegit.core.parser
 import org.littlegit.core.commandrunner.GitCommand
 import org.littlegit.core.commandrunner.InvalidCommitException
 import org.littlegit.core.model.RawCommit
-import java.time.Instant
-import java.time.OffsetDateTime
-import java.time.ZoneId
+import org.littlegit.core.util.CPDate
 
 data class RefsResult(val refs: List<String>, val isHead: Boolean)
 
@@ -28,7 +26,7 @@ object LogParser {
             val parentHashes = split[1].split(" ").filter { it.isNotBlank() }
             val message = split.subList(5, split.size).joinToString(GitCommand.Log.deliminator)
 
-            val date = OffsetDateTime.ofInstant(Instant.ofEpochMilli(split[3].toLong() * 1000), ZoneId.systemDefault())
+            val date = CPDate.fromEpochMilis(split[3].toLong() * 1000)
             val refResults = RefsParser.parseRef(split[2])
             val committerEmail = split[4]
 

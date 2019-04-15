@@ -1,19 +1,19 @@
 package org.littlegit.core.model
 
-import java.time.OffsetDateTime
+import org.littlegit.core.util.CPDate
 
 open class RawCommit(
         val hash: String,
         val refs: List<String>,
         val parentHashes: List<String>,
-        val date: OffsetDateTime,
+        val date: CPDate,
         val committerEmail: String,
         val commitSubject: String,
         val isHead: Boolean
 ) {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
-        if (javaClass != other?.javaClass) return false
+        if (other == null || this::class == other::class) return false
 
         other as RawCommit
 

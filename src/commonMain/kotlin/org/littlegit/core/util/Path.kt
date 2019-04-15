@@ -1,6 +1,8 @@
 package org.littlegit.core.util
 
 expect class Path {
+    val fileName: Path
+
     fun toFile(): File
     fun relativize(other: Path): Path
     fun normalize(): Path
@@ -12,6 +14,7 @@ expect class File {
 
     val absolutePath: String
     val canonicalPath: String
+    fun newFile(s: String)
 }
 
 expect object Paths {

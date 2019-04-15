@@ -6,7 +6,7 @@ import org.littlegit.core.util.File
 import org.littlegit.core.util.Paths
 
 
-class TestCommandHelper(private val file: File) {
+class TestCommandHelper(private val file: TempFolder) {
 
     companion object {
         const val DEFAULT_EMAIL =  "frodo.baggins@shire.com"
@@ -92,7 +92,7 @@ class TestCommandHelper(private val file: File) {
         return stagedFiles.any { file.absolutePath.endsWith(it) }
     }
 
-    private fun execute(command: String): List<String> = TestExecuteHelper.execute(file, command)
+    private fun execute(command: String): List<String> = TestExecuteHelper.execute(file.root, command)
 
 
     fun branchAndCheckout(branch: String): TestCommandHelper {

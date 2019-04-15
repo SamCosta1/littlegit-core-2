@@ -6,10 +6,9 @@ import org.littlegit.core.util.File
 actual open class BaseIntegrationTest {
     actual val testFolder: File
         get() = TODO("not implemented") //To change initializer of created properties use File | Settings | File Templates.
-        set(value) {}
+
     actual val littleGit: LittleGitCore
         get() = TODO("not implemented") //To change initializer of created properties use File | Settings | File Templates.
-        set(value) {}
 
     actual fun setup() {
     }

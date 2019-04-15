@@ -4,6 +4,7 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.rules.TemporaryFolder
 import org.littlegit.core.LittleGitCore
+import org.littlegit.core.helper.TempFolder
 import org.littlegit.core.util.File
 import org.littlegit.core.util.Path
 import org.littlegit.core.util.Paths
@@ -16,7 +17,7 @@ actual open class BaseIntegrationTest {
     @JvmField
     var _testFolder = TemporaryFolder()
 
-    actual val testFolder: File; get() =  File(_testFolder.root)
+    actual val testFolder: TempFolder; get() =  TempFolder(_testFolder)
 
     actual val littleGit: LittleGitCore
         get() = _littleGit!!

@@ -1,11 +1,10 @@
 package org.littlegit.core.model
-import org.littlegit.core.util.joinWithNewLines
-import java.time.OffsetDateTime
+import org.littlegit.core.util.CPDate
 
 class FullCommit(hash: String,
                  refs: List<String>,
                  parentHashes: List<String>,
-                 date: OffsetDateTime,
+                 date: CPDate,
                  committerEmail: String,
                  commitSubject: String,
                  isHead: Boolean,
@@ -27,8 +26,6 @@ class FullCommit(hash: String,
     }
 
     override fun equals(other: Any?): Boolean {
-        if (this === other) return true
-        if (javaClass != other?.javaClass) return false
         if (!super.equals(other)) return false
 
         other as FullCommit
