@@ -6,7 +6,7 @@ import org.littlegit.core.helper.assertEquals
 import org.littlegit.core.helper.assertNotNull
 import org.littlegit.core.helper.assertTrue
 import org.littlegit.core.model.GitError
-import org.littlegit.core.parser.Remote
+import org.littlegit.core.unit.parser.Remote
 import kotlin.test.Test
 
 class RemoteTests: BaseIntegrationTest() {

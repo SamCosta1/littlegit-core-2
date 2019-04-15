@@ -1,0 +1,12 @@
+ee06970df7913f65dcd9a5e488d709177ec06e3f@|@9b0cac23347cf27fb2310d8765679fbd8fbcfa3c@|@HEAD -> refs/heads/master@|@1527531388@|@test@gmail.com@|@Made the file into a js file
+Made the file into a js file
+
+
+diff --git a/hel
+rename to helloworld.js
+index 89ca106..50a1522 100644
+--- a/helloworld.txt
++++ b/helloworld.js
+@@ -1, function helloWorld() {
+-   var hello = "Hello world";
++   var hello =

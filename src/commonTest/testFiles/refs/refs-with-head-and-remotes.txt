@@ -1,0 +1,5 @@
+refs/heads/branch1:*:refs/remotes/origin/branch1:b3b3755fb3c4b0757d43a6905af6ce043a8fcc30:commit
+refs/heads/branch2: ::6cf952cb052928ff99d7b893c33545baec24465d:commit
+refs/heads/master: ::3e84683d9517a0b7106d776d58bdc946b8895650:commit
+refs/remotes/origin/branch1: ::ef2063e28a7c4c51b90c52537f0e6070424defd2:commit
+refs/remotes/upstream/branch1: ::ef2063e28a7c4c51b90c52537f0e6070424defd2:commit

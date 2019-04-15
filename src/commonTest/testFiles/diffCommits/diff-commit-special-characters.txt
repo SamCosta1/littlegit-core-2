@@ -1,0 +1,28 @@
+1b2e546d927cb6680f499326ced13aba080e79e9@|@6118a5e3d1761ee39bd8f630bd46d3180ad418a4@|@HEAD -> refs/heads/master@|@1527942434@|@test@gmail.com@|@special characters
+special characters
+
+
+diff --git a/file1.txt b/file1.txt
+new file mode 100644
+index 0000000..881c539
+--- /dev/null
++++ b/file1.txt
+@@ -0,0 +1,6 @@
+++plus
++-minus
++@@ats
++diff --git
++
++$dollar
+diff --git a/file2.txt b/file2.txt
+index eea5c62..61b89aa 100644
+--- a/file2.txt
++++ b/file2.txt
+@@ -2,3 +2,4 @@
+ -bla
+ +bla
+  bla
++-hello
+diff --git "a/a/b/awks file \\ name : +_)(*&^%$\302\243@!/:\\:\\ :b !@\302\243$%^&*()_+eroij    oif .txt" "b/a/b/awks file \\ name : +_)(*&^%$\302\243@!/:\\:\\ :b !@\302\243$%^&*()_+eroij    oif .txt"
+new file mode 100644
+index 0000000..e69de29

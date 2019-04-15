@@ -1,4 +1,4 @@
-package org.littlegit.core.parser
+package org.littlegit.core.unit.parser
 
 import org.littlegit.core.exception.MalformedConflictListException
 import org.littlegit.core.model.ConflictFile

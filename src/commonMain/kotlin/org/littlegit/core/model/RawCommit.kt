@@ -13,9 +13,7 @@ open class RawCommit(
 ) {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
-        if (other == null || this::class == other::class) return false
-
-        other as RawCommit
+        if (other == null || other !is RawCommit) return false
 
         if (hash != other.hash) return false
         if (refs != other.refs) return false

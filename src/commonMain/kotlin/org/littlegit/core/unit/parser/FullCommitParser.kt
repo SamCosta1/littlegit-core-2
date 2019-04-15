@@ -1,8 +1,7 @@
-package org.littlegit.core.parser
+package org.littlegit.core.unit.parser
 
 import org.littlegit.core.commandrunner.InvalidCommitException
 import org.littlegit.core.model.FullCommit
-import org.littlegit.core.util.CPDate
 import org.littlegit.core.util.Path
 import org.littlegit.core.util.joinWithNewLines
 

@@ -2,7 +2,7 @@ package org.littlegit.core.commandrunner
 
 import org.littlegit.core.LittleGitCommandResult
 import org.littlegit.core.model.GitError
-import org.littlegit.core.parser.GitResultParser
+import org.littlegit.core.unit.parser.GitResultParser
 import org.littlegit.core.shell.ShellRunner
 import org.littlegit.core.util.File
 import org.littlegit.core.util.Path

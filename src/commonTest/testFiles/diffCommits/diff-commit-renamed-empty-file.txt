@@ -1,0 +1,8 @@
+650a47b84a5bf9d71274fa1d6dd66aa3582fc551@|@2c40e96e6006527830c0b9ae535f06063bbb5b14@|@HEAD -> refs/heads/master@|@1529264031@|@samuel.dacosta@student.manchester.ac.uk@|@rename empty file
+rename empty file
+
+
+diff --git a/file with spaces.txt b/renamed file.txt
+similarity index 100%
+rename from file with spaces.txt
+rename to renamed file.txt

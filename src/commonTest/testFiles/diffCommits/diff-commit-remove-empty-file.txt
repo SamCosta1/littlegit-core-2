@@ -1,0 +1,7 @@
+7e18c155f59c750785357fadd81c06494109368e@|@f6529b25d5f898fc0b33e704100419a3d429cd82@|@HEAD -> refs/heads/master@|@1529262878@|@test@gmail.com@|@remove file
+remove file
+
+
+diff --git a/emptyFile.txt b/emptyFile.txt
+deleted file mode 100644
+index e69de29..0000000

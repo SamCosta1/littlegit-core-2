@@ -1,0 +1,40 @@
+37a117d046c4247ed70b323d67e8bed664f9ec0e@|@afc4d944687d13a5813a7df522d47eb5f058ab76 1361c652a6c25c6ba7f57a7e9c840c61b368e86b@|@HEAD -> refs/heads/feature/remotes, refs/remotes/origin/develop, refs/heads/develop@|@1525504241@|@samuel.dacosta@student.manchester.ac.uk@|@Merge branch 'feature/config' into develop
+1361c652a6c25c6ba7f57a7e9c840c61b368e86b@|@94f12ebe05c0b299c2c5a35457184e3002b49068@|@refs/remotes/origin/feature/config@|@1525504106@|@samuel.dacosta@student.manchester.ac.uk@|@Refactor packages
+94f12ebe05c0b299c2c5a35457184e3002b49068@|@c626ebf25b4f8a4bc80300db0dd69f6bdffa1066@|@@|@1525446296@|@samdc@apadmi.com@|@Ensure global is only used when specified
+c626ebf25b4f8a4bc80300db0dd69f6bdffa1066@|@a3cc7ed78c8ca8147ad4e46baec1858736b67403@|@@|@1525445342@|@samdc@apadmi.com@|@Add simple config tests
+a3cc7ed78c8ca8147ad4e46baec1858736b67403@|@5cc05fc7d26f6431860884766c5903375d773249@|@@|@1525443018@|@samdc@apadmi.com@|@Add config reading / writing
+5cc05fc7d26f6431860884766c5903375d773249@|@afc4d944687d13a5813a7df522d47eb5f058ab76@|@@|@1525426276@|@samdc@apadmi.com@|@Refactor Log parsing to use helper and tidy up the commands class
+afc4d944687d13a5813a7df522d47eb5f058ab76@|@3650d29fbb53cd5b94dd7694899a56e68d8ca4a2@|@@|@1525424440@|@samdc@apadmi.com@|@Add public method to get the raw commit list
+3650d29fbb53cd5b94dd7694899a56e68d8ca4a2@|@3c59af8198a3b3bd799b431a5cc18ddfbfef2b94@|@@|@1525423960@|@samdc@apadmi.com@|@Add exception throwing into the parsing code
+3c59af8198a3b3bd799b431a5cc18ddfbfef2b94@|@daaa5496f3a8aaacdd2ca7cd7cba2d1ade392df7 5b85b8b8f8ed19732c38aa1512ec91c158e2c3b1@|@@|@1525422307@|@samdc@apadmi.com@|@Merge branch 'feature/travis_fix' into develop
+daaa5496f3a8aaacdd2ca7cd7cba2d1ade392df7@|@28fa91818c467cfbcce05d0a3b53edbc487d6735 73626f33ed18e9fcb94289590bb6f5da05e65ab9@|@@|@1525422252@|@samdc@apadmi.com@|@Merge branch 'feature/graph_parsing' into develop
+73626f33ed18e9fcb94289590bb6f5da05e65ab9@|@31368cdb9cb4e3df5bec4074a786dca5ab90a64f@|@refs/remotes/origin/feature/graph_parsing@|@1525421341@|@samdc@apadmi.com@|@Update the delimiter to protect against weird email addresses
+31368cdb9cb4e3df5bec4074a786dca5ab90a64f@|@eca44bb32efe2657b086b0ee0d223edb95bb9c66@|@@|@1525358189@|@samdc@apadmi.com@|@Add test for empty email
+eca44bb32efe2657b086b0ee0d223edb95bb9c66@|@5f308924bac100eab11f362879cd3738e14f2e9a@|@@|@1525350784@|@samdc@apadmi.com@|@Attempt to fix test on travis
+5f308924bac100eab11f362879cd3738e14f2e9a@|@5d2d60ca7f7f1f5b377485ceb5aac69b21be6f4f@|@@|@1525349553@|@samdc@apadmi.com@|@Remove unneeded prints
+5d2d60ca7f7f1f5b377485ceb5aac69b21be6f4f@|@eeeb5369b389160d523db2374b9a982633cb539a@|@@|@1525349499@|@samdc@apadmi.com@|@Tweak formatting
+eeeb5369b389160d523db2374b9a982633cb539a@|@62d4b4677d9a0708784acd46a2399649d774baae@|@@|@1525349394@|@samdc@apadmi.com@|@Rename commit message to subject since it's not the full commit body
+62d4b4677d9a0708784acd46a2399649d774baae@|@dc52a53c14dddbfe0d01eb0de2a4f0a53c903e02@|@@|@1525267900@|@samdc@apadmi.com@|@Fix the reading tests by using the correct file
+dc52a53c14dddbfe0d01eb0de2a4f0a53c903e02@|@d6e85ee1b5d3441dbd7b43f626e1392b8bafdc92@|@@|@1525267191@|@samdc@apadmi.com@|@Make the git commands subclasses of the abstract one
+d6e85ee1b5d3441dbd7b43f626e1392b8bafdc92@|@ae74b7e09f3ff7a14e69e8b02206c3ca93ad176c@|@@|@1525266822@|@samdc@apadmi.com@|@Add parent hashes field to commit object
+ae74b7e09f3ff7a14e69e8b02206c3ca93ad176c@|@5b2741b907089e7b6725235c806960b0aa44efd5 60030c9eb65ca19de051253652f1b508f65257ec@|@refs/heads/feature/graph_parsing@|@1525194871@|@samuel.dacosta@student.manchester.ac.uk@|@Merge branch 'feature/pushing' into feature/graph_parsing
+60030c9eb65ca19de051253652f1b508f65257ec@|@2c5792ddc3365a3d8b05fb321e56d3f203359aab@|@refs/remotes/origin/feature/pushing, refs/heads/feature/pushing@|@1525194556@|@samuel.dacosta@student.manchester.ac.uk@|@Add base intergration tests
+5b2741b907089e7b6725235c806960b0aa44efd5@|@7eff8953a19aa5706e0ae69c67e729e43a0ef785@|@@|@1525184836@|@samdc@apadmi.com@|@WIP: Parsing the graph from a commit list
+7eff8953a19aa5706e0ae69c67e729e43a0ef785@|@2c5792ddc3365a3d8b05fb321e56d3f203359aab@|@@|@1525085137@|@samdc@apadmi.com@|@Fix parsing of commit messages
+5b85b8b8f8ed19732c38aa1512ec91c158e2c3b1@|@28fa91818c467cfbcce05d0a3b53edbc487d6735@|@refs/remotes/origin/feature/travis_fix@|@1525077624@|@samdc@apadmi.com@|@Tweak travis config to get more output
+2c5792ddc3365a3d8b05fb321e56d3f203359aab@|@8a1ffb045e00c977a17fd25b42bb3af46f8c471a@|@@|@1524855244@|@samuel.dacosta@student.manchester.ac.uk@|@Swap out git command runner callback for main interface
+8a1ffb045e00c977a17fd25b42bb3af46f8c471a@|@28fa91818c467cfbcce05d0a3b53edbc487d6735@|@@|@1524851265@|@samuel.dacosta@student.manchester.ac.uk@|@Add no remote and no upstream erros
+28fa91818c467cfbcce05d0a3b53edbc487d6735@|@1b83fbf73d43c52bdb32aa7a6bf28e3eea79d0c7 ec17dd888b922bf61c46dad8c36e30aa1abe767f@|@@|@1524847175@|@samuel.dacosta@student.manchester.ac.uk@|@Merge branch 'feature/commiting' into develop
+ec17dd888b922bf61c46dad8c36e30aa1abe767f@|@40cde6635fc6bf573e3b4a824276e307ccf46490@|@refs/remotes/origin/feature/commiting@|@1524846535@|@samuel.dacosta@student.manchester.ac.uk@|@Extract the error and success parsing code
+40cde6635fc6bf573e3b4a824276e307ccf46490@|@1b83fbf73d43c52bdb32aa7a6bf28e3eea79d0c7@|@@|@1524428368@|@samuel.dacosta@student.manchester.ac.uk@|@Add commit tests
+1b83fbf73d43c52bdb32aa7a6bf28e3eea79d0c7@|@e62ad8fcfcd9a69e5815bbe91529a7cef3716ddc 6ee49b01374dee549c23a38e80beb3f987a9994b@|@@|@1524423681@|@samuel.dacosta@student.manchester.ac.uk@|@Merge branch 'feature/shell_runner' into develop
+6ee49b01374dee549c23a38e80beb3f987a9994b@|@e6cd4ca05262650303a464d5be1f968bdb3b8a42@|@refs/remotes/origin/feature/shell_runner@|@1524422686@|@samuel.dacosta@student.manchester.ac.uk@|@Make the shell runner non static in preperation to mock it out
+e6cd4ca05262650303a464d5be1f968bdb3b8a42@|@a2339a2c07f46f11da3acebe8f9ec59762a00b3e@|@@|@1524412095@|@samuel.dacosta@student.manchester.ac.uk@|@Undo adding travis build on osx
+a2339a2c07f46f11da3acebe8f9ec59762a00b3e@|@5a65e2efd5a73ba6fb9f8cb2f29ba3ed22aad11b@|@@|@1524411624@|@samuel.dacosta@student.manchester.ac.uk@|@Try fixing travis yml
+5a65e2efd5a73ba6fb9f8cb2f29ba3ed22aad11b@|@249e0fa94eb5605c93909b26f32fcbad04c690a6@|@@|@1524410743@|@samuel.dacosta@student.manchester.ac.uk@|@Add tests for initializing repo
+249e0fa94eb5605c93909b26f32fcbad04c690a6@|@720c75e40a744533bd697b8b3856a6c529d352e0@|@@|@1524407395@|@samuel.dacosta@student.manchester.ac.uk@|@Add osx to the travis yml
+720c75e40a744533bd697b8b3856a6c529d352e0@|@d82e1c2fde32703bd432ed6d3914a6010ba3ebf9@|@@|@1524396273@|@samuel.dacosta@student.manchester.ac.uk@|@Inject commandrunner into read and write modules Add initial error handling
+d82e1c2fde32703bd432ed6d3914a6010ba3ebf9@|@e62ad8fcfcd9a69e5815bbe91529a7cef3716ddc@|@@|@1524387756@|@samuel.dacosta@student.manchester.ac.uk@|@Add a low level shell runner to run shell commands
+e62ad8fcfcd9a69e5815bbe91529a7cef3716ddc@|@eb4843a76394976c3729bba9d9e2cbab0da17aa0@|@@|@1523805744@|@samuel.dacosta@student.manchester.ac.uk@|@Add configuration files
+eb4843a76394976c3729bba9d9e2cbab0da17aa0@|@a02bb96ae76d4e5c1dc70773be72e9da6823b973@|@refs/remotes/origin/travis-config, refs/heads/travis-config@|@1523804510@|@samuel.dacosta@student.manchester.ac.uk@|@add the travis.yml file
+a02bb96ae76d4e5c1dc70773be72e9da6823b973@|@@|@refs/remotes/origin/master, refs/heads/master@|@1523803679@|@samuel.dacosta@student.manchester.ac.uk@|@Initial Commit

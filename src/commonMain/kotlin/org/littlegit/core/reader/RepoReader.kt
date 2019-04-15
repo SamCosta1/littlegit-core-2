@@ -2,7 +2,7 @@ package org.littlegit.core.reader
 import org.littlegit.core.LittleGitCommandResult
 import org.littlegit.core.commandrunner.*
 import org.littlegit.core.model.*
-import org.littlegit.core.parser.*
+import org.littlegit.core.unit.parser.*
 import org.littlegit.core.util.*
 
 class RepoReader(private val commandRunner: GitCommandRunner,

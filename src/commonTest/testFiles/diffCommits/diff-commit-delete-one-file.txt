@@ -1,0 +1,16 @@
+74cdc24b8f176b5d642b2024cb52a9ff375f2a25@|@ee06970df7913f65dcd9a5e488d709177ec06e3f@|@HEAD -> refs/heads/master@|@1527940962@|@test@gmail.com@|@Removed helloworld.js
+Removed helloworld.js
+
+
+diff --git a/helloworld.js b/helloworld.js
+deleted file mode 100644
+index 50a1522..0000000
+--- a/helloworld.js
++++ /dev/null
+@@ -1,6 +0,0 @@
+-function helloWorld() {
+-   var hello = "Hello world!!!!";
+-   console.log(hello);
+-}
+-
+-helloWorld();

@@ -22,6 +22,8 @@ actual class Path(private val _path: JavaPath) {
         return other is Path && _path == other._path;
     }
 
+    fun resolve(other: String): Path = Path(_path.resolve(other))
+
 }
 
 typealias JavaFile = java.io.File;
@@ -68,6 +70,7 @@ actual object System {
     actual fun lineSeparator(): CharSequence = JavaSystem.lineSeparator()
 
     actual fun nanoTime(): Any = JavaSystem.nanoTime();
+    fun getUserDir(): String = JavaSystem.getProperty("user.dir")
 
 }
 

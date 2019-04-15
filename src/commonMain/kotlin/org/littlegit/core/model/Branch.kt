@@ -2,7 +2,7 @@ package org.littlegit.core.model
 
 import org.littlegit.core.commandrunner.CommitHash
 import org.littlegit.core.exception.RemoteNotFoundException
-import org.littlegit.core.parser.Remote
+import org.littlegit.core.unit.parser.Remote
 
 abstract class Branch(
         val fullRefName: String,

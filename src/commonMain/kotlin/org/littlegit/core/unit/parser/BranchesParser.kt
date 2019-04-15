@@ -1,4 +1,4 @@
-package org.littlegit.core.parser
+package org.littlegit.core.unit.parser
 
 import org.littlegit.core.commandrunner.GitCommand
 import org.littlegit.core.model.Branch

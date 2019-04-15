@@ -1,4 +1,4 @@
-package org.littlegit.core.parser
+package org.littlegit.core.unit.parser
 
 data class Remote(val remoteName: String, var pushUrl: String = "", var fetchUrl: String = "")
 
