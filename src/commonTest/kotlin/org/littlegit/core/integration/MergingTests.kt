@@ -39,7 +39,7 @@ class MergingTests: BaseIntegrationTest() {
         val branches = littleGit.repoReader.getBranches()
         val branch = branches.data?.find { it.branchName == branchName }
 
-        assertNotNull(branch); branch!!
+        assertNotNull(branch)
         val result = littleGit.repoModifier.merge(branch, false)
         assertTrue(result.result is GitResult.Success)
         assertFalse(result.data?.hasConflicts!!)
@@ -69,7 +69,7 @@ class MergingTests: BaseIntegrationTest() {
         val branches = littleGit.repoReader.getBranches()
         val branch = branches.data?.find { it.branchName == branchName }
 
-        assertNotNull(branch); branch!!
+        assertNotNull(branch)
         val result = littleGit.repoModifier.merge(branch, false)
         assertTrue(result.result is GitResult.Success)
         assertTrue(result.data?.hasConflicts!!)

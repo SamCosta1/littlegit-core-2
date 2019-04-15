@@ -44,6 +44,17 @@ actual class File(private val _file: JavaFile) {
     actual fun newFile(s: String) {
         _file.createNewFile()
     }
+
+    actual fun resolve(other: String): File {
+        return File(_file.resolve(other))
+    }
+
+    actual fun exists(): Boolean {
+        return _file.exists()
+    }
+
+    actual val fileName: String
+        get() = _file.name
 }
 
 typealias JavaPaths = java.nio.file.Paths

@@ -30,7 +30,7 @@ object LogParser {
             val refResults = RefsParser.parseRef(split[2])
             val committerEmail = split[4]
 
-            if (commitHash.isBlank() || date == null) {
+            if (commitHash.isBlank()) {
                 throw InvalidCommitException(raw = it)
             }
 

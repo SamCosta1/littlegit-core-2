@@ -19,6 +19,14 @@ fun assertFalse(condition: Boolean) {
     kotlin.test.assertFalse(condition)
 }
 
+fun assertNotNull(msg: String, obj: Any?) {
+    kotlin.test.assertNotNull(obj, msg)
+}
+
+fun assertNotNull(obj: Any?) {
+    kotlin.test.assertNotNull(obj)
+}
+
 fun  <T> assertEquals(expected: T, actual: T) {
     return kotlin.test.assertEquals(expected, actual)
 }

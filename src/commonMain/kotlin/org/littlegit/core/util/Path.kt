@@ -12,9 +12,12 @@ expect class File {
     fun toPath(): Path
     fun delete()
 
+    val fileName: String
     val absolutePath: String
     val canonicalPath: String
     fun newFile(s: String)
+    fun resolve(other: String): File
+    fun exists(): Boolean
 }
 
 expect object Paths {
