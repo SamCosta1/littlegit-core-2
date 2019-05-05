@@ -32,7 +32,7 @@ object ConflictFilesParser {
                 val spaceSplit = line.split(" ")
 
                 // TODO: Do something with this and actually handle binary files
-                val fileMode = spaceSplit[0]
+                //val fileMode = spaceSplit[0]
                 val hash = spaceSplit[1]
 
                 val tabSplit = spaceSplit[2].split("\t")

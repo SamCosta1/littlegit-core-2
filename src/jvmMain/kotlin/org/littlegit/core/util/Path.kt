@@ -22,7 +22,7 @@ actual class Path(private val _path: JavaPath) {
         return other is Path && _path == other._path;
     }
 
-    fun resolve(other: String): Path = Path(_path.resolve(other))
+    actual fun resolve(other: String): Path = Path(_path.resolve(other))
 
 }
 

@@ -6,6 +6,7 @@ expect class Path {
     fun toFile(): File
     fun relativize(other: Path): Path
     fun normalize(): Path
+    fun resolve(other: String): Path
 }
 
 expect class File {

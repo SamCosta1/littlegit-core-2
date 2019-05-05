@@ -16,6 +16,10 @@ actual class Path {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
+    actual fun resolve(other: String): Path {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
 }
 
 actual object Paths {
