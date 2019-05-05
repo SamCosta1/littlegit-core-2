@@ -1,8 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="littlegit-core-2-js">
     <output-path>$PROJECT_DIR$/build/libs</output-path>
-    <root id="archive" name="littlegit-core-2-js.jar">
-      <element id="module-output" name="littlegit-core-2_jsMain" />
-    </root>
+    <root id="archive" name="littlegit-core-2-js.jar" />
   </artifact>
 </component>

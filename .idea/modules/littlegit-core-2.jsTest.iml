@@ -2,14 +2,16 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="false" externalProjectId="littlegit-core-2">
+      <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="true" externalProjectId="littlegit-core-2">
         <sourceSets>
-          <sourceSet>littlegit-core-2_commonMain</sourceSet>
+          <sourceSet>littlegit-core-2.commonMain</sourceSet>
+          <sourceSet>littlegit-core-2.jsMain</sourceSet>
+          <sourceSet>littlegit-core-2.commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
         <compilerArguments>
-          <option name="outputFile" value="$MODULE_DIR$/../../build/classes/kotlin/js/main/littlegit-core-2.js" />
+          <option name="outputFile" value="$MODULE_DIR$/../../build/classes/kotlin/js/test/littlegit-core-2_test.js" />
           <option name="noStdlib" value="true" />
           <option name="sourceMap" value="true" />
           <option name="metaInfo" value="true" />
