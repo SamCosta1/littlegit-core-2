@@ -3,7 +3,6 @@ package org.littlegit.core.integration
 import org.littlegit.core.commandrunner.GitResult
 import org.littlegit.core.helper.TestCommandHelper
 import org.littlegit.core.helper.assertEquals
-import org.littlegit.core.helper.assertFalse
 import org.littlegit.core.helper.assertTrue
 import org.littlegit.core.model.GitError
 import kotlin.test.Test

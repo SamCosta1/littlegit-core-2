@@ -1,0 +1,24 @@
+7805d8138dee983c2bf0494acddf852ca3ba02f0@|@cd217978b0e1febdcd85492667b6210f67c9bf20@|@HEAD -> refs/heads/master@|@1529434424@|@samuel.dacosta@student.manchester.ac.uk@|@Awkward stuff
+Awkward stuff
+
+
+diff --git "a/some file . txt" "b/some file . txt"
+new file mode 100644
+index 0000000..e69de29
+diff --git a/some file . txt b/some file . txt
+new file mode 100644
+index 0000000..e69de29
+diff --git "a/\"directory\"/bla.txt" "b/\"directory\"/bla.txt"
+index bf2102e..4cfde69 100644
+--- "a/\"directory\"/bla.txt"
++++ "b/\"directory\"/bla.txt"
+@@ -1 +1,7 @@
+-oeirjgoeij
+\ No newline at end of file
+++
+++
++Stuff
+++
++"
++"
++)^%$£@!

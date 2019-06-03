@@ -1,0 +1,15 @@
+c2d902b4dffb0a65d1778bb5f057bac9bdb433dc@|@e09f03aaf99b2d4b5e3ba72a8ccb7ca81e0c8e82@|@refs/remotes/origin/feature/git-show@|@1526208525@|@samuel.dacosta@student.manchester.ac.uk@|@ignore ds store
+ignore ds store
+
+
+
+diff --git a/.gitignore b/.gitignore
+index a641bcd..ae2a346 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -108,3 +108,5 @@ gradle-app.setting
+
+
+ # End of https://www.gitignore.io/api/gradle,kotlin,intellij
++
++src/test/kotlin/org/littlegit/core/integration/\.DS_Store

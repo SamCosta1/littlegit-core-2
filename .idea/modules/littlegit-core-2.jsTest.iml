@@ -4,8 +4,8 @@
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="true" externalProjectId="littlegit-core-2">
         <sourceSets>
-          <sourceSet>littlegit-core-2.commonMain</sourceSet>
           <sourceSet>littlegit-core-2.jsMain</sourceSet>
+          <sourceSet>littlegit-core-2.commonMain</sourceSet>
           <sourceSet>littlegit-core-2.commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>

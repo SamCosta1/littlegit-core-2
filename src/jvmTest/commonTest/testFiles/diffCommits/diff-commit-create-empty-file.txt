@@ -1,0 +1,7 @@
+4feef692d35fa546ab9794be32f5a5b9ce6e7ac1@|@e603673d40c3c38b2c608a62fbf6a5528562b082@|@HEAD -> refs/heads/master@|@1529252675@|@test@gmail.com@|@An empty file commit
+An empty file commit
+
+
+diff --git a/emptyFile.txt b/emptyFile.txt
+new file mode 100644
+index 0000000..e69de29

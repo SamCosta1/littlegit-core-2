@@ -1,0 +1,19 @@
+e603673d40c3c38b2c608a62fbf6a5528562b082@|@1b2e546d927cb6680f499326ced13aba080e79e9@|@HEAD -> refs/heads/master@|@1528299797@|@test@gmail.com@|@commit subject
+commit subject
+
+
+diff --git a/name b/name
+deleted file mode 100644
+index f121bdb..0000000
+--- a/name
++++ /dev/null
+@@ -1 +0,0 @@
+-name
+diff --git a/name.txt b/name.txt
+new file mode 100644
+index 0000000..c2671b3
+--- /dev/null
++++ b/name.txt
+@@ -0,0 +1 @@
++Some Name
+\ No newline at end of file
